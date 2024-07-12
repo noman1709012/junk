@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-section-container {
+    background-image: url('../assets/Hero-bg.png');
+    max-width: 1440x; 
+    height: 652px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .banner-text-container h1,
+.banner-text-container p {
+    margin-bottom: 100px;
+} */
+.banner-text-container h1{
+ font-size: 48px;
+ font-weight: 800;
+ margin-bottom: 22px;
+}
+.banner-text-container p{
+    margin-bottom:32px;
+}
+.anchor{
+    background-color:rgb(17,37,63);
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 5px;
+}
+.anchor a{
+    text-decoration:none;
+    color:white;
+}
+.featured-container{
+    width:80%; 
+    height:1200px;
+    border:2px solid red;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: rgb(244, 245, 247);
+}
+.featured-title{
+    text-align:center;
+}
+.featured-title h1{
+    font-size: 37px;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.featured-title p{
+    margin-bottom:48px;
+}
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.iteration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iteration.left-text .text {
+    order: 1;
+    flex: 1;
+}
+
+.iteration.left-text .image {
+    order: 2;
+}
+
+.iteration.right-text .text {
+    order: 2;
+    flex: 1;
+    text-align: right;
+}
+
+.iteration.right-text .image {
+    order: 1;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-inspiration{
+   width:80%;
+   height:650px;
+   margin:0 auto;
+   border: 2px solid violet
+}
+.my-inspiration{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.inspi_text h1{
+   text-align:center;
+   font-size: 32px; 
+   font-weight: 800;
+   margin-top:80px;
+}
+.inspi_text p{
+    text-align:center;
+    margin-top:22px;
+    margin-bottom:48px;
+}
+.inspi_vid{
+    text-align:center;
+    width: 1076px;
+    height: 550px;
+}
+.my_target{
+    width:80%;
+    height:463px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.my_target h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align:center;
+    margin-bottom:24px;
+}
+.my_target p{
+    text-align:center;
+    margin-bottom:48px;
+}
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.card-header {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card-paragraph {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.need-support{
+    width:80%;
+    height: 500px;
+    margin:auto;
+    border:2px solid violet;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image: url("../assets/handshake.jpg");
+    background-size:cover;
+    border-radius:15px;
+    margin-bottom:79px;
+}
+.need-support h1{
+    color:white;
+    font-size:32px;
+    font-weight:700;
+    margin-top:40px;
+}
+.need-support p{
+    color:white;
+    margin:41px;
+}
+.size{
+    width: 548px;
+    height: 57px;
+}
+.button1{
+    height: 57px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: space-between;
+    gap:8px;
+    padding: 32px 150px 32px 150px;
+    background-color: rgb(247,248,248);
+}
