@@ -54,7 +54,7 @@
 .featured-container{
     width:80%; 
     height:1200px;
-    border:2px solid red;
+    /* border:2px solid red; */
     margin: 0 auto;
     margin-top: 80px;
     background-color: rgb(244, 245, 247);
@@ -127,7 +127,7 @@ button {
    width:80%;
    height:650px;
    margin:0 auto;
-   border: 2px solid violet
+   /* border: 2px solid violet */
 }
 .my-inspiration{
     display:flex;
@@ -154,7 +154,7 @@ button {
 .my_target{
     width:80%;
     height:463px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 .my_target h1{
@@ -211,7 +211,7 @@ button {
     width:80%;
     height: 500px;
     margin:auto;
-    border:2px solid violet;
+    /* border:2px solid violet; */
     display:flex;
     flex-direction:column;
     justify-content:center;
