@@ -247,3 +247,9 @@ button {
     padding: 32px 150px 32px 150px;
     background-color: rgb(247,248,248);
 }
+.text h1{
+    margin-bottom: 16px;
+}
+.text p{
+    margin-bottom: 32px;
+}
